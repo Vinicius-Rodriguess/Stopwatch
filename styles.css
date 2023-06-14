@@ -14,6 +14,7 @@
     top: 50%;
     left: 50%;
     position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
     border: none;
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .9);
@@ -29,9 +30,7 @@ h1 {
     margin: 2px;
 }
 
-#comecar,
-#parar,
-#reset {
+#comecar,#parar,#reset {
     border: none;
     text-decoration: none;
     width: 100px;
@@ -43,9 +42,7 @@ h1 {
     cursor: pointer;
 }
 
-#comecar:hover,
-#parar:hover,
-#reset:hover {
+#comecar:hover,#parar:hover,#reset:hover {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     transition: 0.2s;

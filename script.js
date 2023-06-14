@@ -37,6 +37,6 @@ function watch() {
         hr++;
         min = 0;
     }
-    var timeString = doiszeros(hr) + ':' + doiszeros(min) + ':' + doiszeros(seg);
+    let timeString = doiszeros(hr) + ':' + doiszeros(min) + ':' + doiszeros(seg);
     document.getElementById('watch').innerText = timeString;
 }
