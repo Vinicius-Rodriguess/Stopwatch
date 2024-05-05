@@ -1,25 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <script src="./src/js/script.js" defer></script>
 </head>
 
 <body>
     <section id="container">
-        <div id="fundo">
-            <h1 id="watch">00:00:00</h1>
-            <br>
-            <button id="comecar" onclick="start()">Começar</button>
-            <button id="parar" onclick="parar()">Parar</button>
-            <button id="reset" onclick="reset()">Recomeçar</button>
+        <div id="background">
+            <h1 id="counterPanel">00:00:00</h1>
+            <button id="start" class="btn">Começar</button>
+            <button id="stop" class="btn">Parar</button>
+            <button id="reset" class="btn">Recomeçar</button>
         </div>
     </section>
-    <script src="./script.js"></script>
 </body>
-
 </html>
