@@ -1,5 +1,5 @@
-# Cronometro
-### Feito em Html, Css e JavaScript
-<a href="https://vinicius-rodriguess.github.io/Cronometro/">Clique aqui para testar o projeto</a>
+# Stopwatch
+### This project is a stopwatch that records your times in a list.
+<a href="https://vinicius-rodriguess.github.io/Stopwatch/">Click here to test the project!</a>
 <p></p>
 <img src="./img/cronometro.png"/>
