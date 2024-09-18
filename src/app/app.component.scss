@@ -1,0 +1,13 @@
+$gradientContainer: linear-gradient(120deg, #0000ff, #ffa500);
+
+.container-stopWatch {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: $gradientContainer;
+    padding: 1rem;
+    width: 100%;
+    overflow: hidden;
+}

@@ -1,0 +1,22 @@
+<div class="container">
+    <div  class="container-counter">
+        <h1>{{displayTime}}</h1>
+    </div>
+    <div class="container-buttons">
+        <app-button 
+            [name]="'Começar'"
+            [color]="'rgba(0, 128, 0, 0.5)'"
+            (btnClicked)="startTimer()"
+        ></app-button>
+        <app-button 
+            [name]="'Parar'" 
+            [color]="'rgba(255, 255, 0, .5)'"
+            (btnClicked)="stopTimer()"
+        ></app-button>
+        <app-button
+            [name]="'Recomeçar'"
+            [color]="'rgba(255, 0, 0, 0.5)'"
+            (btnClicked)="resetTimer()"
+        ></app-button>
+    </div>
+</div>
