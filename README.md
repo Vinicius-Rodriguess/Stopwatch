@@ -28,7 +28,7 @@ A aplicação possui uma lógica eficiente para cálculo e exibição do tempo, 
 
 <a href="https://vinicius-rodriguess.github.io/Stopwatch/">Clique aqui para testar o projeto!</a>
 
-<img src="./img/cronometro.png"/>
+<img src="./src/img/stopwatch.png"/>
 
 Ou então:
 
